@@ -134,7 +134,7 @@ export default function FeaturedMoments() {
       <div className="pl-2 lg:pl-10 pt-10 pb-10">
         <div
           ref={scrollContainerRef}
-          className=" flex gap-6  overflow-x-auto overflow-y-hidden px-4 md:px-8 lg:px-16  pb-8 snap-x snap-mandatory scrollbar-hide"
+          className=" flex gap-6  overflow-x-auto overflow-y-hidden px-4 md:px-8 lg:px-16  pb-8 snap-x snap-mandatory "
         >
           <div ref={first} className="snap-start"></div>
           {moments.map((moment, index) => (

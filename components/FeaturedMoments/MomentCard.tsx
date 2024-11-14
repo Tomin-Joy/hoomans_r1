@@ -22,7 +22,7 @@ export default function MomentCard({
     <div
       className={cn(
         "group cursor-pointer animate-fade-up flex-shrink-0 w-[280px] md:w-[320px] lg:w-[360px]",
-        isActive && "lg:w-[420px] md:w-[340px] "
+        isActive && "lg:w-[420px] sm:w-[340px] "
       )}
       style={{
         animationDelay: `${index * 100}ms`,
