@@ -43,6 +43,7 @@ export default function MomentCard({
         style={{ animationDelay: `${index * 200}ms` }}
       >
         <h3 className="text-lg font-medium text-gray-900 mb-1">{title}</h3>
+        
         <p className={`text-sm text-gray-600 ${isActive || "line-clamp-2"}`}>
           {description}
         </p>
